@@ -1,0 +1,841 @@
+
+html {
+	font-size: 62.5%;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	background-image: url(http://u.cubeupload.com/azarovdn/headermin.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.button {
+	display: block;
+	position: relative;
+	height: 65px;
+	width: 240px;
+	background-color: #f2d048;
+	border-radius: 2px;
+	border-width: 0px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 65px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.button:hover {
+	color: #272727;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #272727;
+	text-align: center;
+
+}
+
+.fixed {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0px;
+    z-index: 100;
+	background-image: url(http://u.cubeupload.com/azarovdn/headermin.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.wrapper {
+    max-width: 940px;
+    min-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0px;
+}
+
+.brand {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 35px;
+	width: 20%;
+	padding-left: 8px;
+	box-sizing: border-box;
+}
+
+.brand a {
+	font-family: 'Cookie', cursive;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 41px;
+	letter-spacing: 2px;
+	color: #f2d048;
+	box-sizing: border-box;
+}
+
+.navigation {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	width: 80%;
+	text-align: right;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+
+.menu {
+	margin: 0;
+}
+
+.menu li {
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 40px;
+}
+
+.menu li:last-child {
+		padding-right: 0px;
+}
+
+.menu li a:hover {
+	color: #f2d048;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 41px;
+	color: #ffffff;
+}
+
+.caption {
+	padding-bottom: 1px;
+}
+
+h1 {
+	margin: 0;
+	padding-top: 235px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 75px;
+	font-weight: 700;
+	line-height: 95px;
+	letter-spacing: -3px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1 em {
+	text-transform: none; 
+	font-family: 'Vollkorn', serif;
+	font-size: 45px;
+	font-style: italic;
+	font-weight: 100;
+	line-height: 87px;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.tell-me {
+	margin-left:  auto;
+	margin-right:  auto;
+	margin-top: 39px;
+	margin-bottom: 159px;
+}
+
+.servises {
+	background-color: #ffffff;
+}
+
+.first-section, .section-header {
+	margin: 0;
+	padding-top: 110px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: -2px;
+	color: #272727;
+	text-align: center;	
+}
+
+.description {
+	margin: 0;
+	padding-top: 2px;
+	font-family: 'Vollkorn', serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 100;
+	line-height: 30px;
+	color: #767676;
+	text-align: center;
+}
+
+.list-of-services {
+	margin-top: 71px;
+	padding-left: 0;
+	padding-bottom: 35px;
+	text-align: justify;
+}
+
+.list-of-services li {
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+	width: 290px;
+	box-sizing: border-box;
+}
+
+.list-of-services:after {
+	width: 100%;
+    height: 0;
+    content: '';
+    display: inline-block;
+
+}
+
+.advantages>div {
+	height: 270px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.e-commerse {
+	width: 73px;
+	height: 73px;
+	margin: 0 auto;
+	background-image: url(http://u.cubeupload.com/azarovdn/spriteicon.png);
+	background-position: 0 0;
+}
+
+.responsive-web {
+	width: 73px;
+	height: 73px;
+	margin: 0 auto;
+	background-image: url(http://u.cubeupload.com/azarovdn/spriteicon.png);
+	background-position: -91px 0px;
+}
+
+.web-security {
+	width: 73px;
+	height: 73px;
+	margin: 0 auto;
+	background-image: url(http://u.cubeupload.com/azarovdn/spriteicon.png);
+	background-position: -183px 0px;
+}
+
+.advantages h3 {
+	margin: 0;
+	padding-top: 17px;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: -1px;
+}
+
+.advantages p {
+	margin: 0;
+	padding-top: 5px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 22px;
+	color: #767676;
+	text-align: center;
+}
+
+.portfolio-section {
+	background-color: #f7f7f7;
+}
+
+.portfolio-list {
+	margin-top: 20px;
+	padding-left: 0;
+	padding-bottom: 122px;
+	text-align: justify;
+}
+
+.portfolio-list:after {
+	width: 100%;
+    height: 0;
+    content: '';
+    display: inline-block;
+}
+
+.portfolio-list li {
+	margin-top: 50px;
+	width: 290px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.portfolio-list li a:before {
+	content: '';
+ 	opacity: 0;
+  	position: absolute; top: 0; left: 0;
+  	width: 100%;
+  	height: 100%; 
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  	-webkit-transform: scale(0.1);
+	transform: scale(0.1);
+ 	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.portfolio-list li a:hover:before {
+  	opacity: 1;
+  	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.picture {
+	height: 300px;
+}
+
+.ebony-ivory {
+	background-image: url(http://u.cubeupload.com/azarovdn/ebonyivorymin.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.smart-stationary {
+	background-image: url(http://u.cubeupload.com/azarovdn/smartstationarymin.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.clever-poster {
+	background-image: url(http://u.cubeupload.com/azarovdn/cleverpostermin.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.vinyl-record {
+	background-image: url(http://u.cubeupload.com/azarovdn/vinilrecordmin.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.treehouse-template {
+	background-image: url(http://u.cubeupload.com/azarovdn/treehousetemplatemin.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.burned-logo {
+	background-image: url(http://u.cubeupload.com/azarovdn/barnedlogomin.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.name {
+	height: 92px;
+	background-color: #ffffff;
+}
+
+.name h3 {
+	margin: 0;
+	padding-top: 27px;
+	font-size: 18px;
+	line-height: 20px;
+	letter-spacing: -1px;
+}
+
+.name p {
+	margin: 0;
+	padding-top: 2px;
+	font-family: 'Vollkorn', serif;
+	font-size: 17px;
+	font-style: italic;
+	font-weight: 300;
+	line-height: 17px;
+	color: #767676;
+	text-align: center;
+}
+
+.vertical-line { 
+	width: 2px;
+	height: 920px;
+	margin-top: 248px;
+	background-color: #f1f1f1;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.about-list {
+	padding-left: 0;
+	text-align: center;
+	margin-top: 73px;
+}
+
+.about-list li {
+	margin-bottom: 95px;
+}
+
+.about-list li:nth-child(2) {
+	margin-bottom: 84px;
+}
+
+.about-list li:last-child {
+	margin-bottom: 0px;
+}
+
+.about-list li:nth-child(odd) {
+	text-align: left;
+	position: relative;
+	left: 30px;
+}
+
+.about-list li:nth-child(even) {
+	text-align: right;
+	position: relative;
+	right: 30px;
+}
+
+.about-list li:last-child {
+	position: static;
+	text-align: center;
+}
+
+.about-list li:last-child div{
+	background-color: #f2d048;
+	margin-bottom: 118px;
+}
+
+.about-list li:last-child div p {
+	margin-top: 35px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 25px;
+	color: #ffffff;
+	text-align: center; 
+}
+
+.about-photo {
+	width: 166px;
+	height: 166px;
+	border: 7px solid #f1f1f1;
+	border-radius: 50%;
+	display:inline-block;
+}
+
+.picture-2010 {
+	background-image: url(http://u.cubeupload.com/azarovdn/july2010min.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.picture-2011 {
+	background-image: url(http://u.cubeupload.com/azarovdn/january2011min.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.picture-2012{
+	background-image: url(http://u.cubeupload.com/azarovdn/desember2012min.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.picture-2014 {
+	background-image: url(http://u.cubeupload.com/azarovdn/fabruary2012min.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about-text {                   
+	display: inline-block;
+	vertical-align: top;
+	width: 310px;
+	position: relative;
+}
+
+.about-text h3 {
+	margin: 0;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: -1px;
+}
+
+.date {
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.history {
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.about-text>p {
+	margin-top: 12px;
+	margin-bottom: 0px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 22px;
+	letter-spacing: -1px;
+	color: #767676;
+	text-align: center;
+}
+
+.about-text:nth-child(odd) {
+	margin-right: 40px;
+
+}
+
+.about-text:nth-child(even) {
+	margin-left: 40px;
+}
+
+.about-text:nth-child(odd)>p, .about-text:nth-child(odd)>h3 {
+	text-align: right;
+}
+
+.about-text:nth-child(even)>p, .about-text:nth-child(even)>h3 {
+	text-align: left;
+}
+
+.our-amazing-team {
+	background-color: #f9f9f9;
+}
+
+.team-list {
+	margin-top: 75px;
+	max-width: 794px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	text-align: justify;
+}
+
+.team-list:after {
+	width: 100%;
+    height: 0;
+    content: '';
+    display: inline-block;
+}
+
+
+.team-list>li {
+	display: inline-block;
+	height: 345px;
+}
+
+.team-photo {
+	display: inline-block;
+	width: 221px;
+	height: 221px;
+	background-color: #181818;
+	border: 7px solid #ffffff;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.team-name {
+	margin-top: 15px;
+}
+
+.team-name h3 {
+	margin: 0;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: -1px;
+}
+
+.team-name p {
+	margin: 1px;
+	margin-bottom: 0px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 22px;
+	color: #767676;
+	text-align: center;
+}
+
+.team-list {
+	padding-left: 0px;
+	text-align: justify;
+}
+
+.team-list li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.team-social {
+	padding-left: 0px;
+	text-align: justify;
+	width: 140px;
+	margin-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.team-list li:last-child .team-social {
+	
+	width: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.team-social:after {
+	width: 100%;
+	height: 0;
+	display: inline-block;
+	content: '';
+
+}
+
+.social-icon {
+	width: 41px;
+	height: 41px;
+	display:inline-block;
+	vertical-align: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.twitter {
+	background-image: url(http://u.cubeupload.com/azarovdn/sosialwhite.png);
+	background-position: 0px 0px;
+}
+
+.facebook {
+	background-image: url(http://u.cubeupload.com/azarovdn/sosialwhite.png);
+	background-position: -60px 0px;
+}
+
+.google {
+	background-image: url(http://u.cubeupload.com/azarovdn/sosialwhite.png);
+	background-position: -120px 0px;
+}
+
+.printerest {
+	background-image: url(http://u.cubeupload.com/azarovdn/sosialwhite.png);
+	background-position: -180px 0px;
+}
+
+.team-text {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 44px;
+	padding-bottom: 49px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: -1px;
+	color: #767676;
+	text-align: center;
+}
+
+.partners-list {
+	width: 760px;
+	margin-top: 60px;
+	margin-bottom: 63px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	text-align: justify;
+}
+
+.partners-list:after {
+	width: 100%;
+	height: 0;
+	content: '';
+	display: inline-block;
+}
+
+.partners-list li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contact {
+	background-image: url(http://u.cubeupload.com/azarovdn/contactusmin.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.contact h2 {
+	color: #ffffff;
+}
+
+.contact-form {
+	display: block;
+	height: 305px;
+	position: relative;
+	margin-top: 72px;
+	padding-bottom: 116px;
+}
+
+.form-elements {
+	width: 454px;
+	height: 50px;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: -1px;
+	color: #bababa;
+	text-align: left;
+	border: none;
+	border-radius: 2px;
+}
+
+.form-elements::placeholder {
+	padding-left: 20px;
+}
+
+.contact-header {
+	padding-top: 101px;
+}
+
+.contact-name {
+	position: absolute;
+	top: 0px;
+	left:0px;
+}
+
+.contact-message {
+	height: 210px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.contact-message::placeholder {
+	padding-top: 12px;
+}
+
+.contact-email {
+	position: absolute;
+	top: 80px;
+	left: 0px;
+}
+
+.contact-subject {
+	position: absolute;
+	top: 160px;
+	left: 0px;
+}
+
+.send-message {
+	position: absolute;
+	top: 241px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.author-wrapper {
+	position: relative;
+}
+
+.author {
+	margin-top: 28px;
+	margin-bottom: 37px;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 25px;
+	color: #565656;
+	text-align: left;
+}
+
+.author-social {
+	position: absolute;
+	top: 19px;
+	left: 50%;
+	transform: translate(-50%);
+	display: inline-block;
+	width: 190px;
+	padding-left: 0px;
+	text-align: justify;
+}
+
+.author-social:after {
+	width: 100%;
+    height: 0;
+    content: '';
+    display: inline-block;
+}
+
+.author-social li{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.black-icon {
+	height: 40px;
+	width: 40px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.twitter-black {
+	background-image: url(http://u.cubeupload.com/azarovdn/sosialblackmin.png);
+	background-position: 0px 0px;
+}
+
+.facebook-black {	
+	background-image: url(http://u.cubeupload.com/azarovdn/sosialblackmin.png);
+	background-position: -60px 0px;
+}
+
+
+.prinerest-black {	
+	background-image: url(http://u.cubeupload.com/azarovdn/sosialblackmin.png);
+	background-position: -120px 0px;
+}
+
+.google-black {	
+	background-image: url(http://u.cubeupload.com/azarovdn/sosialblackmin.png);
+	background-position: -180px 0px;
+}
+
+/*.p {
+	position: absolute;
+	width: 1400px;
+	left: 50%;
+	top: 0;
+	margin-left: -700px;
+	z-index: 1000;
+	opacity: 0.4;
+}*/
+
+
+
+
